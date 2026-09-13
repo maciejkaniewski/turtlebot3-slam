@@ -1,0 +1,6 @@
+/odom_pos:
+  ros__parameters:
+    left_wheel_indx: 0
+    right_wheel_indx: 1
+    wheel_radius_m: 0.033
+    distance_between_wheels_m: 0.160

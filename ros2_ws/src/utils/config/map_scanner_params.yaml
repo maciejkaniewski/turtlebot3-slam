@@ -1,0 +1,9 @@
+/map_scanner:
+  ros__parameters:
+    robot_width_m: 0.178
+    robot_length_m: 0.14
+    robot_center_offset_m: 0.032
+    map_pgm_file: 'turtlebot3_dqn_stage4.pgm'
+    map_yaml_file: 'turtlebot3_dqn_stage4.yaml'
+    scan_data_name: 'turtlebot3_dqn_stage4_0.25.pkl'
+    scan_step_m: 0.25
