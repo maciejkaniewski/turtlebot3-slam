@@ -13,7 +13,7 @@ carried out against commit `2fc8e91` and the thesis PDF.
 ## How to resume this work
 
 1. `git switch develop` and read this file top to bottom.
-2. Check the **Status** checkboxes in each phase; continue at the first unchecked task.
+2. Check the task checkboxes in each phase; continue at the first unchecked task.
 3. All `file:line` references are **at commit `2fc8e91`**. Lines shift once edits
    start — re-locate with `grep` before editing, never trust the number blindly.
 4. Phases are ordered so that every algorithmic change can be *measured*:
@@ -122,7 +122,7 @@ Each item: fix, then re-run the Phase-0 harness and note the change in the Log.
 - [ ] **1.5 Nearest, not first, reference lookup; no dummy fallback** —
   `get_closest_reference_point` returns the first point inside a ±0.25 m box
   (`:511-513`); on failure a dummy point with θ = 0 and zero scan is used
-  (`:624-626`). Better: HF publishes the reference **index/ID** (see 1.9).
+  (`:624-626`). Better: HF publishes the reference **index/ID** (see 1.12).
 - [ ] **1.6 Log-domain weights** — replace the linear product + `1e-300`
   (`:383`) with log-weights and log-sum-exp normalisation (an all-underflow case
   currently silently becomes uniform weights).
